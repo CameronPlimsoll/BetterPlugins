@@ -12,9 +12,9 @@ var _appFolder = "/app";
 var _appArchive = "/app.asar";
 var _index = _appFolder + "/app/index.js";
 
-var _discordPath = "/Applications/Discord PTB.app/Contents/Resources";
+var _discordPath = "/Applications/Discord Canary.app/Contents/Resources";
 var _prefsPath = process.env.HOME + "/Library/Preferences/BetterDiscord/";
-var _logFile = process.env.HOME + "/Downloads/betterdiscord_ptb_log.txt";
+var _logFile = process.env.HOME + "/Downloads/betterdiscord_canary_log.txt";
 
 /* Functions */
 function createLogFile() {

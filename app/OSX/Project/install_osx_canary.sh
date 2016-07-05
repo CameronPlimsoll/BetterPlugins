@@ -3,7 +3,7 @@
 
 cwd=$(pwd)
 
-if [ -e "$cwd/index_ptb.js" ] 
+if [ -e "$cwd/index_canary.js" ] 
 then
     if [ ! -e "/usr/local/bin/node" ]
     then 
@@ -15,7 +15,7 @@ then
 	open 'https://nodejs.org/en/'
 	exit 1
     else
-	sudo /usr/local/bin/node "$cwd/index_ptb.js"
+	sudo /usr/local/bin/node "$cwd/index_canary.js"
 	exit 0
     fi
 fi

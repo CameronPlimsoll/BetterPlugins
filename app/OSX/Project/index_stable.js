@@ -43,12 +43,6 @@ function install() {
             appendToLogFile("Deleted " + _discordPath + _appFolder + " folder.");
         }
 
-        if(fs.existsSync(_discordPath + "/node_modules/BetterDiscord")) {
-            appendToLogFile("Deleting " + _discordPath + "/node_modules/BetterDiscord" + " folder.");
-            wrench.rmdirSyncRecursive(_discordPath + "/node_modules/BetterDiscord");
-            appendToLogFile("Deleted " + _discordPath + "/node_modules/BetterDiscord" + " folder.");
-        }
-
         appendToLogFile("Looking for app archive");
 
         if(fs.existsSync(_discordPath + _appArchive)) {
@@ -57,10 +51,11 @@ function install() {
 
             appendToLogFile("Copying BetterDiscord");
 
-            fs.mkdirSync(_discordPath + "/node_modules/BetterDiscord");
+            fs.mkdirSync(_discordPath + _appFolder + "/node_modules/BetterDiscord");
+
 	    wrench.chmodSyncRecursive("BetterDiscord/", 0777);
             wrench.copyDirSyncRecursive("BetterDiscord/", _discordPath + _appFolder  +  "/node_modules/BetterDiscord/", {forceDelete: true});
-	
+
             if(fs.existsSync("splice")) {
                 if(fs.existsSync(_discordPath + _appFolder)) {
                     appendToLogFile("Extracted to: " + _discordPath + _appFolder);
