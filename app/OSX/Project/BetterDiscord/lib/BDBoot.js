@@ -58,6 +58,8 @@ BetterDiscordBoot.prototype.BDReBoot = false;
 
 BetterDiscordBoot.prototype.BootStrapStart = function() {
 	_ipc.on('asynchronous-message', function(event, arg) { _self.IpcAsyncMessage(event, arg); });
+	_ipc.on('asynchronous-command', function(event, arg) 
+{ _self.IpcAsyncCommand(event, arg); });
 
 	this.bootInterval = setInterval(this.HotLoadCheck, 2000);
 	this.eventInterval = setInterval(this.DispatchEvents, 1000);
@@ -164,6 +166,12 @@ BetterDiscordBoot.prototype.RecordEvent = function(event) {
 		this.eventPoll[event] = this.eventPoll[event] + 1; 
 	else
 		this.eventPoll[event] = 1;
+};
+
+BetterDiscordBoot.prototype.IpcAsyncCommand = function(event, arg) {
+	_utils.SecureTryCatch('BetterDiscordBoot->IpcAsyncCommand', function() {
+		_this.IpcAsyncCommand(event, arg);
+	});
 };
 
 BetterDiscordBoot.prototype.IpcAsyncMessage = function(event, arg) {

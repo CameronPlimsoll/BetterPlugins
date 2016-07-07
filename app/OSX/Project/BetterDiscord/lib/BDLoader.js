@@ -60,7 +60,7 @@ BetterDiscordLoader.prototype.Load = function(updaterData) {
 	_utils.execJs('loadingNode.innerHTML = \' <div style="height:30px;width:100%;background:#282B30;"><div style="padding-right:10px; float:right"> <span id="bd-status" style="line-height:30px;color:#E8E8E8;">BetterDiscord - Loading Libraries : </span><progress id="bd-pbar" value="10" max="100"></progress></div></div> \'');
 	_utils.execJs('var flex = document.getElementsByClassName("flex-vertical flex-spacer")[0]; flex.appendChild(loadingNode);');
 
-	this.IPCAsyncMessageInit();
+	this.IPCAsyncCommandInit();
 };
 
 BetterDiscordLoader.prototype.LoadPlugin = function(fileName) {
@@ -110,10 +110,10 @@ BetterDiscordLoader.prototype.LoadTheme = function(fileName) {
     });
 };
 
-BetterDiscordLoader.prototype.IPCAsyncMessageInit = function() {
+BetterDiscordLoader.prototype.IPCAsyncCommandInit = function() {
 	_utils.updateLoading("Loading Resources", 0, 100);
 
-    this.IpcAsyncMessage('asynchronous-message', 'load-jQuery');
+    this.IpcAsyncCommand('asynchronous-command', 'load-jQuery');
 };
 
 BetterDiscordLoader.prototype.GetIPCNextEvent = function(arg) {
@@ -264,6 +264,23 @@ BetterDiscordLoader.prototype.GetIPCNextEvent = function(arg) {
 };
 
 BetterDiscordLoader.prototype.IpcAsyncMessage = function(event, arg) {
+    if(typeof(arg) === "object") {
+        switch(arg.arg) {
+            case "opendir":
+                if(arg.path == "plugindir") 
+                    _utils.OpenDir(_pluginsPath);			
+                else if(arg.path == "themedir") 
+		    _utils.OpenDir(_themesPath);	
+                else if(arg.path == "datadir") 
+		    _utils.OpenDir(_dataPath);
+                else 
+		    _utils.OpenDir(arg.path);			
+            break;
+        }
+    }
+};
+
+BetterDiscordLoader.prototype.IpcAsyncCommand = function(event, arg) {
 	var ipcTask = this.GetIPCNextEvent(arg);
 
 	if(ipcTask) {

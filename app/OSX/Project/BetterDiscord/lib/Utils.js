@@ -92,6 +92,13 @@ Utils.prototype.LoadDir = function(path, callback) {
     if(files) files.forEach(callback);
 };
 
+Utils.prototype.OpenDir = function(path) {
+    switch(process.platform) {
+        case "win32" : require("child_process").exec('start "" "'+path+'"'); break;
+        case "darwin" : require("child_process").exec('open '+path); break;
+    }
+};
+
 Utils.prototype.CheckCacheFile = function(path, timeHours) {
     var cacheObj = {'cache' : null};
     var isCacheExpired = false;
@@ -161,7 +168,7 @@ Utils.prototype.DownloadHTTP = function(url, callback) {
 }
 
 Utils.prototype.sendIcpAsync = function(message) {
-    this.execJs('betterDiscordIPC.send("asynchronous-message", "'+message+'");');
+    this.execJs('betterDiscordIPC.send("asynchronous-command", "'+message+'");');
 }
 
 //Js logger
@@ -228,7 +235,7 @@ Utils.prototype.injectJavaScriptSync = function(loadMe) {
         script.id="'+loadMe.elemId+'"; \
         script.type = "text/javascript"; \
         script.onload = function() { \
-            betterDiscordIPC.send("asynchronous-message", "'+loadMe.message+'"); \
+            betterDiscordIPC.send("asynchronous-command", "'+loadMe.message+'"); \
         }; \
         document.getElementsByTagName("body")[0].appendChild(script); \
         script.src = "'+loadMe.url+'"; \
