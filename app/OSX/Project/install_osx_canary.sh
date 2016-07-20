@@ -15,7 +15,11 @@ then
 	open 'https://nodejs.org/en/'
 	exit 1
     else
-	sudo /usr/local/bin/node "$cwd/index_canary.js"
+	result = $(sudo /usr/local/bin/node "$cwd/index_canary.js")
+	if [ "$result" -eq "1" ] 
+        then 
+            exit 1
+        fi
 	exit 0
     fi
 fi

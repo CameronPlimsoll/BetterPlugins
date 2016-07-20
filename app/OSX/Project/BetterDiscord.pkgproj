@@ -435,55 +435,7 @@
 						<key>GID</key>
 						<integer>0</integer>
 						<key>PATH</key>
-						<string>/Users/novalue/Downloads/BetterDiscordOSX-0.3.0/BetterDiscord</string>
-						<key>PATH_TYPE</key>
-						<integer>0</integer>
-						<key>PERMISSIONS</key>
-						<integer>493</integer>
-						<key>TYPE</key>
-						<integer>3</integer>
-						<key>UID</key>
-						<integer>0</integer>
-					</dict>
-					<dict>
-						<key>CHILDREN</key>
-						<array/>
-						<key>GID</key>
-						<integer>0</integer>
-						<key>PATH</key>
 						<string>/Users/novalue/Downloads/BetterDiscordOSX-0.3.0/index_stable.js</string>
-						<key>PATH_TYPE</key>
-						<integer>0</integer>
-						<key>PERMISSIONS</key>
-						<integer>493</integer>
-						<key>TYPE</key>
-						<integer>3</integer>
-						<key>UID</key>
-						<integer>0</integer>
-					</dict>
-					<dict>
-						<key>CHILDREN</key>
-						<array/>
-						<key>GID</key>
-						<integer>0</integer>
-						<key>PATH</key>
-						<string>/Users/novalue/Downloads/BetterDiscordOSX-0.3.0/node_modules</string>
-						<key>PATH_TYPE</key>
-						<integer>0</integer>
-						<key>PERMISSIONS</key>
-						<integer>493</integer>
-						<key>TYPE</key>
-						<integer>3</integer>
-						<key>UID</key>
-						<integer>0</integer>
-					</dict>
-					<dict>
-						<key>CHILDREN</key>
-						<array/>
-						<key>GID</key>
-						<integer>0</integer>
-						<key>PATH</key>
-						<string>/Users/novalue/Downloads/BetterDiscordOSX-0.3.0/splice</string>
 						<key>PATH_TYPE</key>
 						<integer>0</integer>
 						<key>PERMISSIONS</key>
@@ -502,7 +454,7 @@
 				<key>CONCLUSION_ACTION</key>
 				<integer>0</integer>
 				<key>IDENTIFIER</key>
-				<string>net.betterdiscord.pkg.BetterDiscordStable</string>
+				<string>net.betterdiscord.pkg.BetterDiscord</string>
 				<key>LOCATION</key>
 				<integer>0</integer>
 				<key>NAME</key>
@@ -512,7 +464,7 @@
 				<key>REFERENCE_PATH</key>
 				<string>./</string>
 				<key>VERSION</key>
-				<string>0.2.8</string>
+				<string>0.3.0</string>
 			</dict>
 			<key>UUID</key>
 			<string>33B35D49-F4B6-4A13-9DA6-596B04723E2B</string>
@@ -948,55 +900,7 @@
 						<key>GID</key>
 						<integer>0</integer>
 						<key>PATH</key>
-						<string>/Users/novalue/Downloads/BetterDiscordOSX-0.3.0/BetterDiscord</string>
-						<key>PATH_TYPE</key>
-						<integer>0</integer>
-						<key>PERMISSIONS</key>
-						<integer>493</integer>
-						<key>TYPE</key>
-						<integer>3</integer>
-						<key>UID</key>
-						<integer>0</integer>
-					</dict>
-					<dict>
-						<key>CHILDREN</key>
-						<array/>
-						<key>GID</key>
-						<integer>0</integer>
-						<key>PATH</key>
 						<string>/Users/novalue/Downloads/BetterDiscordOSX-0.3.0/index_ptb.js</string>
-						<key>PATH_TYPE</key>
-						<integer>0</integer>
-						<key>PERMISSIONS</key>
-						<integer>493</integer>
-						<key>TYPE</key>
-						<integer>3</integer>
-						<key>UID</key>
-						<integer>0</integer>
-					</dict>
-					<dict>
-						<key>CHILDREN</key>
-						<array/>
-						<key>GID</key>
-						<integer>0</integer>
-						<key>PATH</key>
-						<string>/Users/novalue/Downloads/BetterDiscordOSX-0.3.0/node_modules</string>
-						<key>PATH_TYPE</key>
-						<integer>0</integer>
-						<key>PERMISSIONS</key>
-						<integer>493</integer>
-						<key>TYPE</key>
-						<integer>3</integer>
-						<key>UID</key>
-						<integer>0</integer>
-					</dict>
-					<dict>
-						<key>CHILDREN</key>
-						<array/>
-						<key>GID</key>
-						<integer>0</integer>
-						<key>PATH</key>
-						<string>/Users/novalue/Downloads/BetterDiscordOSX-0.3.0/splice</string>
 						<key>PATH_TYPE</key>
 						<integer>0</integer>
 						<key>PERMISSIONS</key>
@@ -1015,7 +919,7 @@
 				<key>CONCLUSION_ACTION</key>
 				<integer>0</integer>
 				<key>IDENTIFIER</key>
-				<string>net.betterdiscord.pkg.BetterDiscordPTB</string>
+				<string>net.betterdiscord.pkg.BetterDiscord</string>
 				<key>LOCATION</key>
 				<integer>0</integer>
 				<key>NAME</key>
@@ -1023,7 +927,7 @@
 				<key>OVERWRITE_PERMISSIONS</key>
 				<false/>
 				<key>VERSION</key>
-				<string>0.2.8</string>
+				<string>0.3.0</string>
 			</dict>
 			<key>TYPE</key>
 			<integer>0</integer>
@@ -1461,7 +1365,7 @@
 						<key>GID</key>
 						<integer>0</integer>
 						<key>PATH</key>
-						<string>/Users/novalue/Downloads/BetterDiscordOSX-0.3.0/BetterDiscord</string>
+						<string>/Users/novalue/Downloads/BetterDiscordOSX-0.3.0/index_canary.js</string>
 						<key>PATH_TYPE</key>
 						<integer>0</integer>
 						<key>PERMISSIONS</key>
@@ -1471,17 +1375,926 @@
 						<key>UID</key>
 						<integer>0</integer>
 					</dict>
+				</array>
+			</dict>
+			<key>PACKAGE_SETTINGS</key>
+			<dict>
+				<key>AUTHENTICATION</key>
+				<false/>
+				<key>CONCLUSION_ACTION</key>
+				<integer>0</integer>
+				<key>IDENTIFIER</key>
+				<string>net.betterdiscord.pkg.BetterDiscord</string>
+				<key>LOCATION</key>
+				<integer>0</integer>
+				<key>NAME</key>
+				<string>BetterDiscordCanary</string>
+				<key>OVERWRITE_PERMISSIONS</key>
+				<false/>
+				<key>REFERENCE_PATH</key>
+				<string>./</string>
+				<key>VERSION</key>
+				<string>0.3.0</string>
+			</dict>
+			<key>UUID</key>
+			<string>3F076E03-E747-4A04-A217-F75D2B19FF78</string>
+		</dict>
+		<dict>
+			<key>PACKAGE_FILES</key>
+			<dict>
+				<key>DEFAULT_INSTALL_LOCATION</key>
+				<string>/</string>
+				<key>HIERARCHY</key>
+				<dict>
+					<key>CHILDREN</key>
+					<array>
+						<dict>
+							<key>CHILDREN</key>
+							<array/>
+							<key>GID</key>
+							<integer>80</integer>
+							<key>PATH</key>
+							<string>Applications</string>
+							<key>PATH_TYPE</key>
+							<integer>0</integer>
+							<key>PERMISSIONS</key>
+							<integer>509</integer>
+							<key>TYPE</key>
+							<integer>1</integer>
+							<key>UID</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>CHILDREN</key>
+							<array>
+								<dict>
+									<key>CHILDREN</key>
+									<array/>
+									<key>GID</key>
+									<integer>80</integer>
+									<key>PATH</key>
+									<string>Application Support</string>
+									<key>PATH_TYPE</key>
+									<integer>0</integer>
+									<key>PERMISSIONS</key>
+									<integer>493</integer>
+									<key>TYPE</key>
+									<integer>1</integer>
+									<key>UID</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>CHILDREN</key>
+									<array/>
+									<key>GID</key>
+									<integer>0</integer>
+									<key>PATH</key>
+									<string>Automator</string>
+									<key>PATH_TYPE</key>
+									<integer>0</integer>
+									<key>PERMISSIONS</key>
+									<integer>493</integer>
+									<key>TYPE</key>
+									<integer>1</integer>
+									<key>UID</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>CHILDREN</key>
+									<array/>
+									<key>GID</key>
+									<integer>0</integer>
+									<key>PATH</key>
+									<string>Documentation</string>
+									<key>PATH_TYPE</key>
+									<integer>0</integer>
+									<key>PERMISSIONS</key>
+									<integer>493</integer>
+									<key>TYPE</key>
+									<integer>1</integer>
+									<key>UID</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>CHILDREN</key>
+									<array/>
+									<key>GID</key>
+									<integer>0</integer>
+									<key>PATH</key>
+									<string>Extensions</string>
+									<key>PATH_TYPE</key>
+									<integer>0</integer>
+									<key>PERMISSIONS</key>
+									<integer>493</integer>
+									<key>TYPE</key>
+									<integer>1</integer>
+									<key>UID</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>CHILDREN</key>
+									<array/>
+									<key>GID</key>
+									<integer>0</integer>
+									<key>PATH</key>
+									<string>Filesystems</string>
+									<key>PATH_TYPE</key>
+									<integer>0</integer>
+									<key>PERMISSIONS</key>
+									<integer>493</integer>
+									<key>TYPE</key>
+									<integer>1</integer>
+									<key>UID</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>CHILDREN</key>
+									<array/>
+									<key>GID</key>
+									<integer>0</integer>
+									<key>PATH</key>
+									<string>Frameworks</string>
+									<key>PATH_TYPE</key>
+									<integer>0</integer>
+									<key>PERMISSIONS</key>
+									<integer>493</integer>
+									<key>TYPE</key>
+									<integer>1</integer>
+									<key>UID</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>CHILDREN</key>
+									<array/>
+									<key>GID</key>
+									<integer>0</integer>
+									<key>PATH</key>
+									<string>Input Methods</string>
+									<key>PATH_TYPE</key>
+									<integer>0</integer>
+									<key>PERMISSIONS</key>
+									<integer>493</integer>
+									<key>TYPE</key>
+									<integer>1</integer>
+									<key>UID</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>CHILDREN</key>
+									<array/>
+									<key>GID</key>
+									<integer>0</integer>
+									<key>PATH</key>
+									<string>Internet Plug-Ins</string>
+									<key>PATH_TYPE</key>
+									<integer>0</integer>
+									<key>PERMISSIONS</key>
+									<integer>493</integer>
+									<key>TYPE</key>
+									<integer>1</integer>
+									<key>UID</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>CHILDREN</key>
+									<array/>
+									<key>GID</key>
+									<integer>0</integer>
+									<key>PATH</key>
+									<string>LaunchAgents</string>
+									<key>PATH_TYPE</key>
+									<integer>0</integer>
+									<key>PERMISSIONS</key>
+									<integer>493</integer>
+									<key>TYPE</key>
+									<integer>1</integer>
+									<key>UID</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>CHILDREN</key>
+									<array/>
+									<key>GID</key>
+									<integer>0</integer>
+									<key>PATH</key>
+									<string>LaunchDaemons</string>
+									<key>PATH_TYPE</key>
+									<integer>0</integer>
+									<key>PERMISSIONS</key>
+									<integer>493</integer>
+									<key>TYPE</key>
+									<integer>1</integer>
+									<key>UID</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>CHILDREN</key>
+									<array/>
+									<key>GID</key>
+									<integer>0</integer>
+									<key>PATH</key>
+									<string>PreferencePanes</string>
+									<key>PATH_TYPE</key>
+									<integer>0</integer>
+									<key>PERMISSIONS</key>
+									<integer>493</integer>
+									<key>TYPE</key>
+									<integer>1</integer>
+									<key>UID</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>CHILDREN</key>
+									<array/>
+									<key>GID</key>
+									<integer>0</integer>
+									<key>PATH</key>
+									<string>Preferences</string>
+									<key>PATH_TYPE</key>
+									<integer>0</integer>
+									<key>PERMISSIONS</key>
+									<integer>493</integer>
+									<key>TYPE</key>
+									<integer>1</integer>
+									<key>UID</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>CHILDREN</key>
+									<array/>
+									<key>GID</key>
+									<integer>80</integer>
+									<key>PATH</key>
+									<string>Printers</string>
+									<key>PATH_TYPE</key>
+									<integer>0</integer>
+									<key>PERMISSIONS</key>
+									<integer>493</integer>
+									<key>TYPE</key>
+									<integer>1</integer>
+									<key>UID</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>CHILDREN</key>
+									<array/>
+									<key>GID</key>
+									<integer>0</integer>
+									<key>PATH</key>
+									<string>PrivilegedHelperTools</string>
+									<key>PATH_TYPE</key>
+									<integer>0</integer>
+									<key>PERMISSIONS</key>
+									<integer>493</integer>
+									<key>TYPE</key>
+									<integer>1</integer>
+									<key>UID</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>CHILDREN</key>
+									<array/>
+									<key>GID</key>
+									<integer>0</integer>
+									<key>PATH</key>
+									<string>QuickLook</string>
+									<key>PATH_TYPE</key>
+									<integer>0</integer>
+									<key>PERMISSIONS</key>
+									<integer>493</integer>
+									<key>TYPE</key>
+									<integer>1</integer>
+									<key>UID</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>CHILDREN</key>
+									<array/>
+									<key>GID</key>
+									<integer>0</integer>
+									<key>PATH</key>
+									<string>QuickTime</string>
+									<key>PATH_TYPE</key>
+									<integer>0</integer>
+									<key>PERMISSIONS</key>
+									<integer>493</integer>
+									<key>TYPE</key>
+									<integer>1</integer>
+									<key>UID</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>CHILDREN</key>
+									<array/>
+									<key>GID</key>
+									<integer>0</integer>
+									<key>PATH</key>
+									<string>Screen Savers</string>
+									<key>PATH_TYPE</key>
+									<integer>0</integer>
+									<key>PERMISSIONS</key>
+									<integer>493</integer>
+									<key>TYPE</key>
+									<integer>1</integer>
+									<key>UID</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>CHILDREN</key>
+									<array/>
+									<key>GID</key>
+									<integer>0</integer>
+									<key>PATH</key>
+									<string>Scripts</string>
+									<key>PATH_TYPE</key>
+									<integer>0</integer>
+									<key>PERMISSIONS</key>
+									<integer>493</integer>
+									<key>TYPE</key>
+									<integer>1</integer>
+									<key>UID</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>CHILDREN</key>
+									<array/>
+									<key>GID</key>
+									<integer>0</integer>
+									<key>PATH</key>
+									<string>Services</string>
+									<key>PATH_TYPE</key>
+									<integer>0</integer>
+									<key>PERMISSIONS</key>
+									<integer>493</integer>
+									<key>TYPE</key>
+									<integer>1</integer>
+									<key>UID</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>CHILDREN</key>
+									<array/>
+									<key>GID</key>
+									<integer>0</integer>
+									<key>PATH</key>
+									<string>Widgets</string>
+									<key>PATH_TYPE</key>
+									<integer>0</integer>
+									<key>PERMISSIONS</key>
+									<integer>493</integer>
+									<key>TYPE</key>
+									<integer>1</integer>
+									<key>UID</key>
+									<integer>0</integer>
+								</dict>
+							</array>
+							<key>GID</key>
+							<integer>0</integer>
+							<key>PATH</key>
+							<string>Library</string>
+							<key>PATH_TYPE</key>
+							<integer>0</integer>
+							<key>PERMISSIONS</key>
+							<integer>493</integer>
+							<key>TYPE</key>
+							<integer>1</integer>
+							<key>UID</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>CHILDREN</key>
+							<array>
+								<dict>
+									<key>CHILDREN</key>
+									<array/>
+									<key>GID</key>
+									<integer>0</integer>
+									<key>PATH</key>
+									<string>Shared</string>
+									<key>PATH_TYPE</key>
+									<integer>0</integer>
+									<key>PERMISSIONS</key>
+									<integer>1023</integer>
+									<key>TYPE</key>
+									<integer>1</integer>
+									<key>UID</key>
+									<integer>0</integer>
+								</dict>
+							</array>
+							<key>GID</key>
+							<integer>80</integer>
+							<key>PATH</key>
+							<string>Users</string>
+							<key>PATH_TYPE</key>
+							<integer>0</integer>
+							<key>PERMISSIONS</key>
+							<integer>493</integer>
+							<key>TYPE</key>
+							<integer>1</integer>
+							<key>UID</key>
+							<integer>0</integer>
+						</dict>
+					</array>
+					<key>GID</key>
+					<integer>0</integer>
+					<key>PATH</key>
+					<string>/</string>
+					<key>PATH_TYPE</key>
+					<integer>0</integer>
+					<key>PERMISSIONS</key>
+					<integer>493</integer>
+					<key>TYPE</key>
+					<integer>1</integer>
+					<key>UID</key>
+					<integer>0</integer>
+				</dict>
+				<key>PAYLOAD_TYPE</key>
+				<integer>0</integer>
+				<key>VERSION</key>
+				<integer>4</integer>
+			</dict>
+			<key>PACKAGE_SCRIPTS</key>
+			<dict>
+				<key>PREINSTALL_PATH</key>
+				<dict>
+					<key>PATH</key>
+					<string>/Users/novalue/Downloads/BetterDiscordOSX-0.3.0/install_osx_node.sh</string>
+					<key>PATH_TYPE</key>
+					<integer>0</integer>
+				</dict>
+				<key>RESOURCES</key>
+				<array>
 					<dict>
 						<key>CHILDREN</key>
 						<array/>
 						<key>GID</key>
 						<integer>0</integer>
 						<key>PATH</key>
-						<string>/Users/novalue/Downloads/BetterDiscordOSX-0.3.0/index_canary.js</string>
+						<string>/Users/novalue/Downloads/node-v4.4.7.pkg</string>
 						<key>PATH_TYPE</key>
 						<integer>0</integer>
 						<key>PERMISSIONS</key>
-						<integer>493</integer>
+						<integer>420</integer>
+						<key>TYPE</key>
+						<integer>3</integer>
+						<key>UID</key>
+						<integer>0</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>PACKAGE_SETTINGS</key>
+			<dict>
+				<key>AUTHENTICATION</key>
+				<integer>1</integer>
+				<key>CONCLUSION_ACTION</key>
+				<integer>0</integer>
+				<key>IDENTIFIER</key>
+				<string>net.betterdiscord.pkg.BetterDiscord</string>
+				<key>LOCATION</key>
+				<integer>0</integer>
+				<key>NAME</key>
+				<string>node-v4.4.7</string>
+				<key>OVERWRITE_PERMISSIONS</key>
+				<false/>
+				<key>REFERENCE_PATH</key>
+				<string>./</string>
+				<key>VERSION</key>
+				<string>0.3.0</string>
+			</dict>
+			<key>TYPE</key>
+			<integer>0</integer>
+			<key>UUID</key>
+			<string>238AC27F-3640-4DAE-B27A-BC8F1E3B82C1</string>
+		</dict>
+		<dict>
+			<key>PACKAGE_FILES</key>
+			<dict>
+				<key>DEFAULT_INSTALL_LOCATION</key>
+				<string>/</string>
+				<key>HIERARCHY</key>
+				<dict>
+					<key>CHILDREN</key>
+					<array>
+						<dict>
+							<key>CHILDREN</key>
+							<array/>
+							<key>GID</key>
+							<integer>80</integer>
+							<key>PATH</key>
+							<string>Applications</string>
+							<key>PATH_TYPE</key>
+							<integer>0</integer>
+							<key>PERMISSIONS</key>
+							<integer>509</integer>
+							<key>TYPE</key>
+							<integer>1</integer>
+							<key>UID</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>CHILDREN</key>
+							<array>
+								<dict>
+									<key>CHILDREN</key>
+									<array/>
+									<key>GID</key>
+									<integer>80</integer>
+									<key>PATH</key>
+									<string>Application Support</string>
+									<key>PATH_TYPE</key>
+									<integer>0</integer>
+									<key>PERMISSIONS</key>
+									<integer>493</integer>
+									<key>TYPE</key>
+									<integer>1</integer>
+									<key>UID</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>CHILDREN</key>
+									<array/>
+									<key>GID</key>
+									<integer>0</integer>
+									<key>PATH</key>
+									<string>Automator</string>
+									<key>PATH_TYPE</key>
+									<integer>0</integer>
+									<key>PERMISSIONS</key>
+									<integer>493</integer>
+									<key>TYPE</key>
+									<integer>1</integer>
+									<key>UID</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>CHILDREN</key>
+									<array/>
+									<key>GID</key>
+									<integer>0</integer>
+									<key>PATH</key>
+									<string>Documentation</string>
+									<key>PATH_TYPE</key>
+									<integer>0</integer>
+									<key>PERMISSIONS</key>
+									<integer>493</integer>
+									<key>TYPE</key>
+									<integer>1</integer>
+									<key>UID</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>CHILDREN</key>
+									<array/>
+									<key>GID</key>
+									<integer>0</integer>
+									<key>PATH</key>
+									<string>Extensions</string>
+									<key>PATH_TYPE</key>
+									<integer>0</integer>
+									<key>PERMISSIONS</key>
+									<integer>493</integer>
+									<key>TYPE</key>
+									<integer>1</integer>
+									<key>UID</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>CHILDREN</key>
+									<array/>
+									<key>GID</key>
+									<integer>0</integer>
+									<key>PATH</key>
+									<string>Filesystems</string>
+									<key>PATH_TYPE</key>
+									<integer>0</integer>
+									<key>PERMISSIONS</key>
+									<integer>493</integer>
+									<key>TYPE</key>
+									<integer>1</integer>
+									<key>UID</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>CHILDREN</key>
+									<array/>
+									<key>GID</key>
+									<integer>0</integer>
+									<key>PATH</key>
+									<string>Frameworks</string>
+									<key>PATH_TYPE</key>
+									<integer>0</integer>
+									<key>PERMISSIONS</key>
+									<integer>493</integer>
+									<key>TYPE</key>
+									<integer>1</integer>
+									<key>UID</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>CHILDREN</key>
+									<array/>
+									<key>GID</key>
+									<integer>0</integer>
+									<key>PATH</key>
+									<string>Input Methods</string>
+									<key>PATH_TYPE</key>
+									<integer>0</integer>
+									<key>PERMISSIONS</key>
+									<integer>493</integer>
+									<key>TYPE</key>
+									<integer>1</integer>
+									<key>UID</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>CHILDREN</key>
+									<array/>
+									<key>GID</key>
+									<integer>0</integer>
+									<key>PATH</key>
+									<string>Internet Plug-Ins</string>
+									<key>PATH_TYPE</key>
+									<integer>0</integer>
+									<key>PERMISSIONS</key>
+									<integer>493</integer>
+									<key>TYPE</key>
+									<integer>1</integer>
+									<key>UID</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>CHILDREN</key>
+									<array/>
+									<key>GID</key>
+									<integer>0</integer>
+									<key>PATH</key>
+									<string>LaunchAgents</string>
+									<key>PATH_TYPE</key>
+									<integer>0</integer>
+									<key>PERMISSIONS</key>
+									<integer>493</integer>
+									<key>TYPE</key>
+									<integer>1</integer>
+									<key>UID</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>CHILDREN</key>
+									<array/>
+									<key>GID</key>
+									<integer>0</integer>
+									<key>PATH</key>
+									<string>LaunchDaemons</string>
+									<key>PATH_TYPE</key>
+									<integer>0</integer>
+									<key>PERMISSIONS</key>
+									<integer>493</integer>
+									<key>TYPE</key>
+									<integer>1</integer>
+									<key>UID</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>CHILDREN</key>
+									<array/>
+									<key>GID</key>
+									<integer>0</integer>
+									<key>PATH</key>
+									<string>PreferencePanes</string>
+									<key>PATH_TYPE</key>
+									<integer>0</integer>
+									<key>PERMISSIONS</key>
+									<integer>493</integer>
+									<key>TYPE</key>
+									<integer>1</integer>
+									<key>UID</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>CHILDREN</key>
+									<array/>
+									<key>GID</key>
+									<integer>0</integer>
+									<key>PATH</key>
+									<string>Preferences</string>
+									<key>PATH_TYPE</key>
+									<integer>0</integer>
+									<key>PERMISSIONS</key>
+									<integer>493</integer>
+									<key>TYPE</key>
+									<integer>1</integer>
+									<key>UID</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>CHILDREN</key>
+									<array/>
+									<key>GID</key>
+									<integer>80</integer>
+									<key>PATH</key>
+									<string>Printers</string>
+									<key>PATH_TYPE</key>
+									<integer>0</integer>
+									<key>PERMISSIONS</key>
+									<integer>493</integer>
+									<key>TYPE</key>
+									<integer>1</integer>
+									<key>UID</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>CHILDREN</key>
+									<array/>
+									<key>GID</key>
+									<integer>0</integer>
+									<key>PATH</key>
+									<string>PrivilegedHelperTools</string>
+									<key>PATH_TYPE</key>
+									<integer>0</integer>
+									<key>PERMISSIONS</key>
+									<integer>493</integer>
+									<key>TYPE</key>
+									<integer>1</integer>
+									<key>UID</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>CHILDREN</key>
+									<array/>
+									<key>GID</key>
+									<integer>0</integer>
+									<key>PATH</key>
+									<string>QuickLook</string>
+									<key>PATH_TYPE</key>
+									<integer>0</integer>
+									<key>PERMISSIONS</key>
+									<integer>493</integer>
+									<key>TYPE</key>
+									<integer>1</integer>
+									<key>UID</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>CHILDREN</key>
+									<array/>
+									<key>GID</key>
+									<integer>0</integer>
+									<key>PATH</key>
+									<string>QuickTime</string>
+									<key>PATH_TYPE</key>
+									<integer>0</integer>
+									<key>PERMISSIONS</key>
+									<integer>493</integer>
+									<key>TYPE</key>
+									<integer>1</integer>
+									<key>UID</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>CHILDREN</key>
+									<array/>
+									<key>GID</key>
+									<integer>0</integer>
+									<key>PATH</key>
+									<string>Screen Savers</string>
+									<key>PATH_TYPE</key>
+									<integer>0</integer>
+									<key>PERMISSIONS</key>
+									<integer>493</integer>
+									<key>TYPE</key>
+									<integer>1</integer>
+									<key>UID</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>CHILDREN</key>
+									<array/>
+									<key>GID</key>
+									<integer>0</integer>
+									<key>PATH</key>
+									<string>Scripts</string>
+									<key>PATH_TYPE</key>
+									<integer>0</integer>
+									<key>PERMISSIONS</key>
+									<integer>493</integer>
+									<key>TYPE</key>
+									<integer>1</integer>
+									<key>UID</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>CHILDREN</key>
+									<array/>
+									<key>GID</key>
+									<integer>0</integer>
+									<key>PATH</key>
+									<string>Services</string>
+									<key>PATH_TYPE</key>
+									<integer>0</integer>
+									<key>PERMISSIONS</key>
+									<integer>493</integer>
+									<key>TYPE</key>
+									<integer>1</integer>
+									<key>UID</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>CHILDREN</key>
+									<array/>
+									<key>GID</key>
+									<integer>0</integer>
+									<key>PATH</key>
+									<string>Widgets</string>
+									<key>PATH_TYPE</key>
+									<integer>0</integer>
+									<key>PERMISSIONS</key>
+									<integer>493</integer>
+									<key>TYPE</key>
+									<integer>1</integer>
+									<key>UID</key>
+									<integer>0</integer>
+								</dict>
+							</array>
+							<key>GID</key>
+							<integer>0</integer>
+							<key>PATH</key>
+							<string>Library</string>
+							<key>PATH_TYPE</key>
+							<integer>0</integer>
+							<key>PERMISSIONS</key>
+							<integer>493</integer>
+							<key>TYPE</key>
+							<integer>1</integer>
+							<key>UID</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>CHILDREN</key>
+							<array>
+								<dict>
+									<key>CHILDREN</key>
+									<array/>
+									<key>GID</key>
+									<integer>0</integer>
+									<key>PATH</key>
+									<string>Shared</string>
+									<key>PATH_TYPE</key>
+									<integer>0</integer>
+									<key>PERMISSIONS</key>
+									<integer>1023</integer>
+									<key>TYPE</key>
+									<integer>1</integer>
+									<key>UID</key>
+									<integer>0</integer>
+								</dict>
+							</array>
+							<key>GID</key>
+							<integer>80</integer>
+							<key>PATH</key>
+							<string>Users</string>
+							<key>PATH_TYPE</key>
+							<integer>0</integer>
+							<key>PERMISSIONS</key>
+							<integer>493</integer>
+							<key>TYPE</key>
+							<integer>1</integer>
+							<key>UID</key>
+							<integer>0</integer>
+						</dict>
+					</array>
+					<key>GID</key>
+					<integer>0</integer>
+					<key>PATH</key>
+					<string>/</string>
+					<key>PATH_TYPE</key>
+					<integer>0</integer>
+					<key>PERMISSIONS</key>
+					<integer>493</integer>
+					<key>TYPE</key>
+					<integer>1</integer>
+					<key>UID</key>
+					<integer>0</integer>
+				</dict>
+				<key>PAYLOAD_TYPE</key>
+				<integer>0</integer>
+				<key>VERSION</key>
+				<integer>4</integer>
+			</dict>
+			<key>PACKAGE_SCRIPTS</key>
+			<dict>
+				<key>RESOURCES</key>
+				<array>
+					<dict>
+						<key>CHILDREN</key>
+						<array/>
+						<key>GID</key>
+						<integer>0</integer>
+						<key>PATH</key>
+						<string>/Users/novalue/Downloads/BetterDiscordOSX-0.3.0/BetterDiscord</string>
+						<key>PATH_TYPE</key>
+						<integer>0</integer>
+						<key>PERMISSIONS</key>
+						<integer>502</integer>
 						<key>TYPE</key>
 						<integer>3</integer>
 						<key>UID</key>
@@ -1528,20 +2341,20 @@
 				<key>CONCLUSION_ACTION</key>
 				<integer>0</integer>
 				<key>IDENTIFIER</key>
-				<string>com.mygreatcompany.pkg.BetterDiscordCanary</string>
+				<string>net.betterdiscord.pkg.BetterDiscord</string>
 				<key>LOCATION</key>
 				<integer>0</integer>
 				<key>NAME</key>
-				<string>BetterDiscordCanary</string>
+				<string>BetterDiscordBase</string>
 				<key>OVERWRITE_PERMISSIONS</key>
 				<false/>
-				<key>REFERENCE_PATH</key>
-				<string>./</string>
 				<key>VERSION</key>
-				<string>0.2.8</string>
+				<string>0.3.0</string>
 			</dict>
+			<key>TYPE</key>
+			<integer>0</integer>
 			<key>UUID</key>
-			<string>3F076E03-E747-4A04-A217-F75D2B19FF78</string>
+			<string>D18832A1-B022-408C-9354-0B9869D5C3CB</string>
 		</dict>
 	</array>
 	<key>PROJECT</key>
@@ -1597,6 +2410,105 @@
 									<key>HIDDEN</key>
 									<false/>
 									<key>STATE</key>
+									<integer>0</integer>
+								</dict>
+								<key>PACKAGE_UUID</key>
+								<string>238AC27F-3640-4DAE-B27A-BC8F1E3B82C1</string>
+								<key>REQUIREMENTS</key>
+								<array>
+									<dict>
+										<key>BEHAVIOR</key>
+										<integer>0</integer>
+										<key>DICTIONARY</key>
+										<dict>
+											<key>IC_REQUIREMENT_FILES_CONDITION</key>
+											<integer>1</integer>
+											<key>IC_REQUIREMENT_FILES_DISK_TYPE</key>
+											<integer>0</integer>
+											<key>IC_REQUIREMENT_FILES_LIST</key>
+											<array>
+												<string>/usr/local/bin/node</string>
+												<string>/usr/local/bin/npm</string>
+											</array>
+											<key>IC_REQUIREMENT_FILES_SELECTOR</key>
+											<integer>0</integer>
+										</dict>
+										<key>IDENTIFIER</key>
+										<string>fr.whitebox.Packages.requirement.files</string>
+										<key>MESSAGE</key>
+										<array/>
+										<key>NAME</key>
+										<string>Files</string>
+										<key>STATE</key>
+										<true/>
+									</dict>
+									<dict>
+										<key>BEHAVIOR</key>
+										<integer>1</integer>
+										<key>DICTIONARY</key>
+										<dict>
+											<key>IC_REQUIREMENT_DISKSPACE_MINIMUM_SIZE_UNIT</key>
+											<integer>0</integer>
+											<key>IC_REQUIREMENT_DISKSPACE_MINIMUM_SIZE_VALUE</key>
+											<integer>20</integer>
+										</dict>
+										<key>IDENTIFIER</key>
+										<string>fr.whitebox.Packages.requirement.diskspace</string>
+										<key>MESSAGE</key>
+										<array>
+											<dict>
+												<key>LANGUAGE</key>
+												<string>English</string>
+												<key>VALUE</key>
+												<string>At least 20MB of space are required for nodeJs installation.</string>
+											</dict>
+										</array>
+										<key>NAME</key>
+										<string>Available Disk Space</string>
+										<key>STATE</key>
+										<true/>
+									</dict>
+								</array>
+								<key>TITLE</key>
+								<array/>
+								<key>TOOLTIP</key>
+								<array/>
+								<key>TYPE</key>
+								<integer>0</integer>
+								<key>UUID</key>
+								<string>F45AAB72-2BA3-4311-BCE1-87D3B9E63E7E</string>
+							</dict>
+							<dict>
+								<key>DESCRIPTION</key>
+								<array/>
+								<key>OPTIONS</key>
+								<dict>
+									<key>HIDDEN</key>
+									<true/>
+									<key>STATE</key>
+									<integer>0</integer>
+								</dict>
+								<key>PACKAGE_UUID</key>
+								<string>D18832A1-B022-408C-9354-0B9869D5C3CB</string>
+								<key>REQUIREMENTS</key>
+								<array/>
+								<key>TITLE</key>
+								<array/>
+								<key>TOOLTIP</key>
+								<array/>
+								<key>TYPE</key>
+								<integer>0</integer>
+								<key>UUID</key>
+								<string>3C2841CF-B0FD-4BA2-AF72-E73F9AA7DCEB</string>
+							</dict>
+							<dict>
+								<key>DESCRIPTION</key>
+								<array/>
+								<key>OPTIONS</key>
+								<dict>
+									<key>HIDDEN</key>
+									<false/>
+									<key>STATE</key>
 									<integer>2</integer>
 								</dict>
 								<key>PACKAGE_UUID</key>
@@ -1632,6 +2544,32 @@
 										</array>
 										<key>NAME</key>
 										<string>Files</string>
+										<key>STATE</key>
+										<true/>
+									</dict>
+									<dict>
+										<key>BEHAVIOR</key>
+										<integer>1</integer>
+										<key>DICTIONARY</key>
+										<dict>
+											<key>IC_REQUIREMENT_DISKSPACE_MINIMUM_SIZE_UNIT</key>
+											<integer>0</integer>
+											<key>IC_REQUIREMENT_DISKSPACE_MINIMUM_SIZE_VALUE</key>
+											<integer>1</integer>
+										</dict>
+										<key>IDENTIFIER</key>
+										<string>fr.whitebox.Packages.requirement.diskspace</string>
+										<key>MESSAGE</key>
+										<array>
+											<dict>
+												<key>LANGUAGE</key>
+												<string>English</string>
+												<key>VALUE</key>
+												<string>Not enough space to install BetterDiscord for Stable release.</string>
+											</dict>
+										</array>
+										<key>NAME</key>
+										<string>Available Disk Space</string>
 										<key>STATE</key>
 										<true/>
 									</dict>
@@ -1691,6 +2629,32 @@
 										<key>STATE</key>
 										<true/>
 									</dict>
+									<dict>
+										<key>BEHAVIOR</key>
+										<integer>1</integer>
+										<key>DICTIONARY</key>
+										<dict>
+											<key>IC_REQUIREMENT_DISKSPACE_MINIMUM_SIZE_UNIT</key>
+											<integer>0</integer>
+											<key>IC_REQUIREMENT_DISKSPACE_MINIMUM_SIZE_VALUE</key>
+											<integer>1</integer>
+										</dict>
+										<key>IDENTIFIER</key>
+										<string>fr.whitebox.Packages.requirement.diskspace</string>
+										<key>MESSAGE</key>
+										<array>
+											<dict>
+												<key>LANGUAGE</key>
+												<string>English</string>
+												<key>VALUE</key>
+												<string>Not enough space to install BetterDiscord for PTB release.</string>
+											</dict>
+										</array>
+										<key>NAME</key>
+										<string>Available Disk Space</string>
+										<key>STATE</key>
+										<true/>
+									</dict>
 								</array>
 								<key>TITLE</key>
 								<array/>
@@ -1744,6 +2708,32 @@
 										</array>
 										<key>NAME</key>
 										<string>Files</string>
+										<key>STATE</key>
+										<true/>
+									</dict>
+									<dict>
+										<key>BEHAVIOR</key>
+										<integer>1</integer>
+										<key>DICTIONARY</key>
+										<dict>
+											<key>IC_REQUIREMENT_DISKSPACE_MINIMUM_SIZE_UNIT</key>
+											<integer>0</integer>
+											<key>IC_REQUIREMENT_DISKSPACE_MINIMUM_SIZE_VALUE</key>
+											<integer>1</integer>
+										</dict>
+										<key>IDENTIFIER</key>
+										<string>fr.whitebox.Packages.requirement.diskspace</string>
+										<key>MESSAGE</key>
+										<array>
+											<dict>
+												<key>LANGUAGE</key>
+												<string>English</string>
+												<key>VALUE</key>
+												<string>Not enough space to install BetterDiscord for Canary release.</string>
+											</dict>
+										</array>
+										<key>NAME</key>
+										<string>Available Disk Space</string>
 										<key>STATE</key>
 										<true/>
 									</dict>
@@ -1898,7 +2888,7 @@
 			<key>RESOURCES</key>
 			<array/>
 			<key>ROOT_VOLUME_ONLY</key>
-			<false/>
+			<true/>
 		</dict>
 		<key>PROJECT_SETTINGS</key>
 		<dict>

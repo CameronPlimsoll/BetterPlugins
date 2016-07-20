@@ -77,7 +77,7 @@ function install() {
 
                     if(!foundR) {
                         appendToLogFile("Offset _fs can't be found");
-                        process.exit();
+                        process.exit(1);
                     }
 
                     data.splice(indexR, 0, 'var _betterDiscordLib = require(\'betterdiscord\');\n');
@@ -96,7 +96,7 @@ function install() {
 
                     if(!found) {
                         appendToLogFile("Offset mainWindow can't be found");
-                        process.exit();
+                        process.exit(1);
                     }
 
                     var splice = fs.readFileSync("splice");
@@ -156,15 +156,19 @@ function install() {
                     });
                 } else {
                     appendToLogFile("Something went wrong. Please try again.");
+                    process.exit(1);
                 }
             }else {
                 appendToLogFile("Missing splice file");
+                process.exit(1);
             }
         } else {
             appendToLogFile("Failed to locate app archive at: " + _discordPath + _appArchive);
+            process.exit(1);
         }
     }else {
         appendToLogFile("Discord resources not found at: " + _discordPath);
+        process.exit(1);
     }
 }
 
