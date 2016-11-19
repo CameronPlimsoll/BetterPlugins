@@ -420,7 +420,7 @@
 			</dict>
 			<key>PACKAGE_SCRIPTS</key>
 			<dict>
-				<key>PREINSTALL_PATH</key>
+				<key>POSTINSTALL_PATH</key>
 				<dict>
 					<key>PATH</key>
 					<string>/Users/novalue/Downloads/BetterDiscordOSX-0.3.0/install_osx_stable.sh</string>
@@ -454,7 +454,7 @@
 				<key>CONCLUSION_ACTION</key>
 				<integer>0</integer>
 				<key>IDENTIFIER</key>
-				<string>net.betterdiscord.pkg.BetterDiscord</string>
+				<string>net.betterdiscord.pkg.BetterDiscordStable</string>
 				<key>LOCATION</key>
 				<integer>0</integer>
 				<key>NAME</key>
@@ -885,7 +885,7 @@
 			</dict>
 			<key>PACKAGE_SCRIPTS</key>
 			<dict>
-				<key>PREINSTALL_PATH</key>
+				<key>POSTINSTALL_PATH</key>
 				<dict>
 					<key>PATH</key>
 					<string>/Users/novalue/Downloads/BetterDiscordOSX-0.3.0/install_osx_ptb.sh</string>
@@ -919,7 +919,7 @@
 				<key>CONCLUSION_ACTION</key>
 				<integer>0</integer>
 				<key>IDENTIFIER</key>
-				<string>net.betterdiscord.pkg.BetterDiscord</string>
+				<string>net.betterdiscord.pkg.BetterDiscordPTB</string>
 				<key>LOCATION</key>
 				<integer>0</integer>
 				<key>NAME</key>
@@ -1350,7 +1350,7 @@
 			</dict>
 			<key>PACKAGE_SCRIPTS</key>
 			<dict>
-				<key>PREINSTALL_PATH</key>
+				<key>POSTINSTALL_PATH</key>
 				<dict>
 					<key>PATH</key>
 					<string>/Users/novalue/Downloads/BetterDiscordOSX-0.3.0/install_osx_canary.sh</string>
@@ -1384,7 +1384,7 @@
 				<key>CONCLUSION_ACTION</key>
 				<integer>0</integer>
 				<key>IDENTIFIER</key>
-				<string>net.betterdiscord.pkg.BetterDiscord</string>
+				<string>net.betterdiscord.pkg.BetterDiscordCanary</string>
 				<key>LOCATION</key>
 				<integer>0</integer>
 				<key>NAME</key>
@@ -1849,7 +1849,7 @@
 				<key>CONCLUSION_ACTION</key>
 				<integer>0</integer>
 				<key>IDENTIFIER</key>
-				<string>net.betterdiscord.pkg.BetterDiscord</string>
+				<string>net.betterdiscord.pkg.BetterDiscordNode</string>
 				<key>LOCATION</key>
 				<integer>0</integer>
 				<key>NAME</key>
@@ -1896,7 +1896,73 @@
 							<array>
 								<dict>
 									<key>CHILDREN</key>
-									<array/>
+									<array>
+										<dict>
+											<key>CHILDREN</key>
+											<array>
+												<dict>
+													<key>CHILDREN</key>
+													<array/>
+													<key>GID</key>
+													<integer>80</integer>
+													<key>PATH</key>
+													<string>/Users/novalue/Downloads/BetterDiscordOSX-0.3.0/BDInstaller/BetterDiscord</string>
+													<key>PATH_TYPE</key>
+													<integer>0</integer>
+													<key>PERMISSIONS</key>
+													<integer>511</integer>
+													<key>TYPE</key>
+													<integer>3</integer>
+													<key>UID</key>
+													<integer>0</integer>
+												</dict>
+												<dict>
+													<key>CHILDREN</key>
+													<array/>
+													<key>GID</key>
+													<integer>80</integer>
+													<key>PATH</key>
+													<string>/Users/novalue/Downloads/BetterDiscordOSX-0.3.0/BDInstaller/node_modules</string>
+													<key>PATH_TYPE</key>
+													<integer>0</integer>
+													<key>PERMISSIONS</key>
+													<integer>493</integer>
+													<key>TYPE</key>
+													<integer>3</integer>
+													<key>UID</key>
+													<integer>0</integer>
+												</dict>
+												<dict>
+													<key>CHILDREN</key>
+													<array/>
+													<key>GID</key>
+													<integer>80</integer>
+													<key>PATH</key>
+													<string>/Users/novalue/Downloads/BetterDiscordOSX-0.3.0/BDInstaller/splice</string>
+													<key>PATH_TYPE</key>
+													<integer>0</integer>
+													<key>PERMISSIONS</key>
+													<integer>493</integer>
+													<key>TYPE</key>
+													<integer>3</integer>
+													<key>UID</key>
+													<integer>0</integer>
+												</dict>
+											</array>
+											<key>GID</key>
+											<integer>80</integer>
+											<key>PATH</key>
+											<string>BDInstaller</string>
+											<key>PATH_TYPE</key>
+											<integer>0</integer>
+											<key>PERMISSIONS</key>
+											<integer>493</integer>
+											<key>TYPE</key>
+											<integer>2</integer>
+											<key>UID</key>
+											<integer>0</integer>
+										</dict>
+									</array>
 									<key>GID</key>
 									<integer>80</integer>
 									<key>PATH</key>
@@ -2282,66 +2348,24 @@
 			</dict>
 			<key>PACKAGE_SCRIPTS</key>
 			<dict>
+				<key>PREINSTALL_PATH</key>
+				<dict>
+					<key>PATH</key>
+					<string>/Users/novalue/Downloads/BetterDiscordOSX-0.3.0/install_osx_resources.sh</string>
+					<key>PATH_TYPE</key>
+					<integer>0</integer>
+				</dict>
 				<key>RESOURCES</key>
-				<array>
-					<dict>
-						<key>CHILDREN</key>
-						<array/>
-						<key>GID</key>
-						<integer>0</integer>
-						<key>PATH</key>
-						<string>/Users/novalue/Downloads/BetterDiscordOSX-0.3.0/BetterDiscord</string>
-						<key>PATH_TYPE</key>
-						<integer>0</integer>
-						<key>PERMISSIONS</key>
-						<integer>502</integer>
-						<key>TYPE</key>
-						<integer>3</integer>
-						<key>UID</key>
-						<integer>0</integer>
-					</dict>
-					<dict>
-						<key>CHILDREN</key>
-						<array/>
-						<key>GID</key>
-						<integer>0</integer>
-						<key>PATH</key>
-						<string>/Users/novalue/Downloads/BetterDiscordOSX-0.3.0/node_modules</string>
-						<key>PATH_TYPE</key>
-						<integer>0</integer>
-						<key>PERMISSIONS</key>
-						<integer>493</integer>
-						<key>TYPE</key>
-						<integer>3</integer>
-						<key>UID</key>
-						<integer>0</integer>
-					</dict>
-					<dict>
-						<key>CHILDREN</key>
-						<array/>
-						<key>GID</key>
-						<integer>0</integer>
-						<key>PATH</key>
-						<string>/Users/novalue/Downloads/BetterDiscordOSX-0.3.0/splice</string>
-						<key>PATH_TYPE</key>
-						<integer>0</integer>
-						<key>PERMISSIONS</key>
-						<integer>493</integer>
-						<key>TYPE</key>
-						<integer>3</integer>
-						<key>UID</key>
-						<integer>0</integer>
-					</dict>
-				</array>
+				<array/>
 			</dict>
 			<key>PACKAGE_SETTINGS</key>
 			<dict>
 				<key>AUTHENTICATION</key>
-				<false/>
+				<true/>
 				<key>CONCLUSION_ACTION</key>
 				<integer>0</integer>
 				<key>IDENTIFIER</key>
-				<string>net.betterdiscord.pkg.BetterDiscord</string>
+				<string>net.betterdiscord.pkg.BetterDiscordBase</string>
 				<key>LOCATION</key>
 				<integer>0</integer>
 				<key>NAME</key>
@@ -2407,10 +2431,52 @@
 								<array/>
 								<key>OPTIONS</key>
 								<dict>
+									<key>DEPENDENCY</key>
+									<dict>
+										<key>ENABLED_MODE</key>
+										<integer>1</integer>
+										<key>SELECTED_DEPENDENCY</key>
+										<dict>
+											<key>BOTTOM</key>
+											<dict>
+												<key>COMPARATOR</key>
+												<integer>0</integer>
+												<key>OBJECT</key>
+												<integer>1</integer>
+												<key>UUID</key>
+												<string>F132A79D-E807-48CE-B302-0BD634735C21</string>
+											</dict>
+											<key>OPERATOR</key>
+											<integer>1</integer>
+											<key>TOP</key>
+											<dict>
+												<key>BOTTOM</key>
+												<dict>
+													<key>COMPARATOR</key>
+													<integer>0</integer>
+													<key>OBJECT</key>
+													<integer>1</integer>
+													<key>UUID</key>
+													<string>FE84ED26-2C5C-4B0E-9FBC-BEFD4BCA4869</string>
+												</dict>
+												<key>OPERATOR</key>
+												<integer>1</integer>
+												<key>TOP</key>
+												<dict>
+													<key>COMPARATOR</key>
+													<integer>0</integer>
+													<key>OBJECT</key>
+													<integer>1</integer>
+													<key>UUID</key>
+													<string>E026DC84-256B-4EDA-B4D4-424B111B835D</string>
+												</dict>
+											</dict>
+										</dict>
+									</dict>
 									<key>HIDDEN</key>
-									<false/>
+									<true/>
 									<key>STATE</key>
-									<integer>0</integer>
+									<integer>3</integer>
 								</dict>
 								<key>PACKAGE_UUID</key>
 								<string>238AC27F-3640-4DAE-B27A-BC8F1E3B82C1</string>
@@ -2483,10 +2549,52 @@
 								<array/>
 								<key>OPTIONS</key>
 								<dict>
+									<key>DEPENDENCY</key>
+									<dict>
+										<key>ENABLED_MODE</key>
+										<integer>1</integer>
+										<key>SELECTED_DEPENDENCY</key>
+										<dict>
+											<key>BOTTOM</key>
+											<dict>
+												<key>COMPARATOR</key>
+												<integer>0</integer>
+												<key>OBJECT</key>
+												<integer>1</integer>
+												<key>UUID</key>
+												<string>F132A79D-E807-48CE-B302-0BD634735C21</string>
+											</dict>
+											<key>OPERATOR</key>
+											<integer>1</integer>
+											<key>TOP</key>
+											<dict>
+												<key>BOTTOM</key>
+												<dict>
+													<key>COMPARATOR</key>
+													<integer>0</integer>
+													<key>OBJECT</key>
+													<integer>1</integer>
+													<key>UUID</key>
+													<string>FE84ED26-2C5C-4B0E-9FBC-BEFD4BCA4869</string>
+												</dict>
+												<key>OPERATOR</key>
+												<integer>1</integer>
+												<key>TOP</key>
+												<dict>
+													<key>COMPARATOR</key>
+													<integer>0</integer>
+													<key>OBJECT</key>
+													<integer>1</integer>
+													<key>UUID</key>
+													<string>E026DC84-256B-4EDA-B4D4-424B111B835D</string>
+												</dict>
+											</dict>
+										</dict>
+									</dict>
 									<key>HIDDEN</key>
 									<true/>
 									<key>STATE</key>
-									<integer>0</integer>
+									<integer>3</integer>
 								</dict>
 								<key>PACKAGE_UUID</key>
 								<string>D18832A1-B022-408C-9354-0B9869D5C3CB</string>

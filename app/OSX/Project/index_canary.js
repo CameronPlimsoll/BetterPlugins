@@ -10,7 +10,7 @@ var util = require('util');
 
 var _appFolder = "/app";
 var _appArchive = "/app.asar";
-var _index = _appFolder + "/app/index.js";
+var _index = _appFolder + "/index.js";
 
 var _discordPath = "/Applications/Discord Canary.app/Contents/Resources";
 var _prefsPath = process.env.HOME + "/Library/Preferences/BetterDiscord/";
